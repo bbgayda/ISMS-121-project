@@ -1,0 +1,27 @@
+<section>
+    <h3>Cat Form</h3>
+
+    <form action="https://afamoapp.glitch.me/api/submit.form" method="GET">
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label>
+        <label><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
+    </fieldset>
+    <fieldset>   
+        <legend>What is personality is your cat?</legend>
+    <input id="loving" type="checkbox" name="personality" checked><label for="loving">Loving</label>
+    <input id="lazy" type="checkbox" name="personality"><label for="lazy">Lazy</label>
+    <input id="energetic" type="checkbox" name="personality"><label for="energetic">Energetic</label>
+    </fieldset> 
+
+    <br><select>
+        <option>select your cat type</option>
+        <option value="Ragdoll">Ragdoll</option>
+        <option value="Devone Rex">Devone Rex</option>
+        <option value="Exotic Shorthair">Exotic Shorthair</option>
+    </select>
+    <input type="file">
+    <input type="text" name="catPhotoUrl" placeholder="Enter your cat URL">
+    <button>Submit</button>
+    </form>
+</section>
